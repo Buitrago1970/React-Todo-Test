@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Todo App con React Testing Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido a la aplicación en React Todo App, una aplicación desarrollada en React que te permite escribir tareas por hacer y luego renderizarlas en una lista. Esta aplicación ha sido exhaustivamente probada utilizando la librería de React Testing Library para garantizar su correcto funcionamiento.
 
-## Available Scripts
+Características principales
 
-In the project directory, you can run:
+Escribir tareas por hacer en un input
+Renderizar tareas en una lista
+Cambios de estilos cuando se selecciona una tarea
+Contador con el número de tareas por completar
+Navegación en el menú
+Simulación de peticiones a una API mediante mocks
+Test realizados
 
-### `yarn start`
+En esta aplicación se han realizado una amplia variedad de tests para comprobar el correcto renderizado y funcionamiento de los siguientes componentes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Header
+Input de búsqueda
+Botones
+Listas
+Lógica de la aplicación (ejemplo: guardado de información escrita en un input, borrado de contenido de un input después de dar al botón, cambio de información dependiendo la página en la que estemos)
+Estilos y cambios de estilos
+Contador de tareas por completar
+Peticiones a una API mediante mocks
+En los tests, hemos practicado el uso de describe blocks para organizar nuestros tests y hacerlos más legibles. Además, hemos usado fireEvent para simular interacciones de usuarios, Integration Tests para comprobar que diferentes componentes se comunican correctamente, y FindBy y FindAllBy para hacer tests asíncronos.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Cómo correr la aplicación
 
-### `yarn test`
+Para correr la aplicación, primero debes clonar este repositorio en tu computadora. Luego, debes abrir una terminal y navegar hasta el directorio de la aplicación. Finalmente, debes ejecutar el siguiente comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Copy code
+npm install
+Después de instalar las dependencias, puedes correr la aplicación ejecutando el siguiente comando:
 
-### `yarn build`
+sql
+Copy code
+npm start
+Conclusión
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+En conclusión, esta aplicación Todo App ha sido desarrollada con una gran atención al detalle y ha sido exhaustivamente probada para garantizar su correcto funcionamiento. Esperamos que te resulte útil y fácil de usar. ¡Gracias por elegir nuestra aplicación Todo App!
