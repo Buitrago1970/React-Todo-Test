@@ -1,6 +1,6 @@
 # Todo App con React Testing Library
 
-Bienvenido a la aplicación en React Todo App, una aplicación desarrollada en React que te permite escribir tareas por hacer y luego renderizarlas en una lista. Esta aplicación ha sido exhaustivamente probada utilizando la librería de React Testing Library para garantizar su correcto funcionamiento.
+Bienvenido a la aplicación en React Todo App, una aplicación desarrollada en React siguiendo el tutorial de The Net Ninja en su video "React Testing Library" (v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ). Esta aplicación te permite escribir tareas por hacer y luego renderizarlas en una lista. Ha sido exhaustivamente probada utilizando la librería de React Testing Library para garantizar su correcto funcionamiento.
 
 ## Características principales
 
