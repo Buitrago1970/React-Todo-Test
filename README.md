@@ -39,4 +39,4 @@ Copy code
 
 ## Conclusión
 
-En conclusión, esta aplicación Todo App ha sido cuidadosamente diseñada para ser fácil de usar y ha sido exhaustivamente probada para garantizar su correcto funcionamiento y renderizado. Esperamos que te resulte útil y fácil
+En conclusión, esta aplicación Todo App ha sido cuidadosamente diseñada para ser fácil de usar y ha sido exhaustivamente probada para garantizar su correcto funcionamiento y renderizado. 
